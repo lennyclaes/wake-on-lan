@@ -1,7 +1,7 @@
 {
   "name": "@lennyclaes/wake-on-lan",
   "version": "0.1.0",
-  "description": "Package to send WOL packets",
+  "description": "Broadcast wake-on-lan requests on your local network",
   "main": "index.js",
   "scripts": {
     "build": "tsc"
