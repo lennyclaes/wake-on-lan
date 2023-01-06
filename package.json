@@ -2,7 +2,11 @@
   "name": "@lennyclaes/wake-on-lan",
   "version": "0.1.0",
   "description": "Broadcast wake-on-lan requests on your local network",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc"
   },
@@ -10,6 +14,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@lennyclaes/network-tools": "^0.1.2",
     "typescript": "^4.9.4"
   },
   "devDependencies": {
